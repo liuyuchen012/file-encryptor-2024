@@ -46,7 +46,7 @@ To install the library, simply use pip:
 
 要安装库，只需使用 pip：
 ```bash
-pip install file-encryptor
+pip install file-encryptor-2024
 ```
 
 ## Usage 用法
@@ -56,7 +56,7 @@ Here is a basic example of how to use the CustomFileEncryptor class to encrypt a
 
 ### English
 ```bash
-from file_encryptor.encryptor import FileEncryptor
+from file_encryptor_2024.encryptor import FileEncryptor
 
 # Initialize the encryptor with a password
 encryptor = FileEncryptor(password="example_password")
@@ -72,7 +72,7 @@ encryptor.decrypt_file("example_file_name.enc", "example_file")
 ### 简体中文
 
 ```bash
-from file_encryptor.encryptor import FileEncryptor
+from file_encryptor.2024.encryptor import FileEncryptor
 
 # 使用密码初始化加密器
 encryptor = FileEncryptor(password="示例密码")
